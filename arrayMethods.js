@@ -31,3 +31,11 @@ var nextOrder = orderQueue.shift(2);
 
 mixedNums.sort();
 mixedWords.sort();
+
+var notFruit = fruitCollection.splice(1, 3);
+gemBox.splice(5, 2);
+gemBox.splice(6, 4);
+
+upToTen.splice(2, 0, 3, 4, 5 , 6, 7, 8);
+brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
+
